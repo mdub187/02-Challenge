@@ -37,6 +37,8 @@ html {
 }
 
 .vl,
+.main,
+.box,
 #orb {
     border-left: 6px solid green;
     height: max-content;
@@ -45,6 +47,7 @@ html {
     margin-left: 450px;
     top: 500;
 }
+
 .div,
 #div,
 div,
@@ -97,7 +100,8 @@ code {
     font-family: inherit;
 
 }
-img, 
+
+img,
 ol,
 ul {
     list-style: center;
@@ -185,12 +189,14 @@ main {
     background-color: var(--light-accent);
     color: var(--dark);
 }
+
 footer,
 #button {
     align-items: center;
     display: flex;
     justify-content: center;
 }
+
 /*
   IDs
 */
