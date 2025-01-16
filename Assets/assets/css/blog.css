@@ -44,14 +44,16 @@ footer {
 li {
   margin: 1rem;
 }
-
+.box,
 main {
-  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   gap: 1em;
   padding: 1rem;
   height: calc(100vh - 11rem);
   overflow-y: scroll;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 ul {

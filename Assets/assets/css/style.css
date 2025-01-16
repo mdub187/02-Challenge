@@ -190,10 +190,15 @@ main {
     color: var(--dark);
 }
 
-footer,
+.footer,
+my-5,
+p,
 #button {
+    text-align: center;
+    text-decoration-color: white; 
+    background-color: #3f51b5;
     align-items: center;
-    display: flex;
+    display: box;
     justify-content: center;
 }
 

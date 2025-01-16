@@ -7,15 +7,20 @@ function buildEl(tag, content) {
     newElement.textContent = content;
     mainEl.appendChild(newElement);
 }
-console.log(mainEl, backEl)
 
 // TODO: Create a function that handles the case where there are no blog posts to display
-function noPostsButton()  {
+function handleNoPosts()  {
     const message = document.getElementById('p');
-    button.addEventListener('click', function(event) {
-        alert(event.target);
-})};
-
+    button.addEventListener('click', (event) => {
+            alert("no posts to display");
+        })};
+function addEventListener (){
+    const button = document.getElementById('button');
+    clickEvent();
+    innerHTML.addEventListener('click', ()=>{
+    this.next();
+    })
+}
 // TODO: Create a function called `renderBlogList` that renders the list of blog posts if they exist. If not, call the no posts function.
 function renderBlogList() {
     const blogPosts = readLocalStorage('blogData');
@@ -31,13 +36,14 @@ function renderBlogList() {
                 <small>By ${post.username}</small>
             `;
             mainEl.appendChild(postEl);
+        localStorage.setItem('blog-post', JSON.stringify(blog));
         });
     }    
 }
 // TODO: Redirect to the home page using the `redirectPage` function found in logic.js when the back button is clicked
 backEl.addEventListener('click', () => {
     history.back();
-    //redirectPage('index.html');  
+    redirectPage('index.html');  
     });
 
 // TODO: Call the `renderBlogList` function

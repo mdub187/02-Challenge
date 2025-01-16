@@ -1,5 +1,5 @@
 // TODO: Create a variable that selects the form element
-const form = document.querySelector('#contactForm');
+const formEl = document.querySelector('#blogForm');
 
 // Function to handle form submission
 function handleFormSubmit(event) {
@@ -21,15 +21,15 @@ function handleFormSubmit(event) {
         date: date,
         author: author
     };
-
-    localStorage.setItem('blog', JSON.stringify(blog));
-    redirectPage();
 }
+    localStorage.setItem('blog', JSON.stringify(blog));
+
 
 // TODO: Add an event listener to the form on submit. Call the function to handle the form submission.
-form.addEventListener('submit', handleFormSubmit);
+formEl.addEventListener('submit', handleFormSubmit);
+
 
 // Function to redirect to the blog page
 function redirectPage() {
-    window.location.href = 'blog.html';
+    window.location.href = '/assets/blog.html';
 }
