@@ -1,126 +1,48 @@
-/*
-  Blog Styles
-*/
-
-/*
-  Tags
-*/
-a {
-  text-decoration: none;
+header {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
 }
 
-article {
-  flex: 1 1 50%;
-  border: 2px solid;
-  border-radius: 4px;
-  padding: 1rem;
-  position: relative;
+button {
+    content-align: center;
 }
 
-article blockquote {
-  margin: 1rem;
-  margin-bottom: 2rem;
-  font-style: italic;
+
+dark-mode sun-moon-icon {
+
+    content: '\263E';
+    /* Moon emoji  */
+
 }
 
-article h2 {
-  text-transform: capitalize;
-  border-bottom: thin solid;
+.flex-container,
+body {
+    outline: dotted;
+    flex-direction: row;
 }
 
-article p {
-  position: absolute;
-  left: 1rem;
-  bottom: 0.5rem;
-  opacity: .75;
+.flex-container,
+.flexbox .card {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* justify-content: center; */
+    align-content: space-evenly;
+}
+
+
+sun-moon-icon {
+
+    content: '\2600';
+    /* Sun emoji  */
+
 }
 
 footer {
-  position: fixed;
-  inset: 0;
-  top: calc(100% - 5rem);
-}
-
-li {
-  margin: 1rem;
-}
-.box,
-main {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 1em;
-  padding: 1rem;
-  height: calc(100vh - 11rem);
-  overflow-y: scroll;
-  justify-content: center;
-}
-
-ul {
-  list-style: none;
-}
-
-/*
-  Classes
-*/
-.card {
-  flex: 1 1 50%;
-  border: 2px solid;
-  border-radius: 4px;
-}
-
-.dark a {
-  color: var(--light);
-}
-
-.light footer {
-  border-top: double 1rem;
-}
-
-.light a {
-  color: var(--dark);
-}
-
-/*
-  IDs
-*/
-#back {
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  margin-right: 1rem;
-  border: groove black;
-  background-color: var(--dark-accent);
-  color: var(--light);
-}
-#orb {
-    width: 100px;
-
-    height: 100px;
-  
-    background-color: #ffcc00; /* Example color */
-  
-    border-radius: 50%;  /* Creates the circular shape */
-  
-    position: absolute; /* To position freely on the page */
-  
-    top: 50%; 
-  
-    left: 50%;
-  
-    transform: translate(-50%, -50%); /* Centers the orb */
-
-}
-
-#back:active {
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
-  background-color: var(--dark-accent);
-}
-
-#back:hover {
-  border-style: inset;
-  background-color: var(--dark-accent-action);
-}
-
-#love {
-  text-align: center;
+    text-align: center;
+    font-weight: 500;
 }

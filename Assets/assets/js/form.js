@@ -1,5 +1,5 @@
 // TODO: Create a variable that selects the form element
-const formEl = document.querySelector('#blogForm');
+const formEl = document.querySelector('blogForm');
 
 // Function to handle form submission
 function handleFormSubmit(event) {
@@ -7,10 +7,10 @@ function handleFormSubmit(event) {
 
     const title = document.querySelector('#title').value;
     const content = document.querySelector('#content').value;
-    const date = document.querySelector('#date').value;
-    const author = document.querySelector('#author').value;
+    // const date = document.querySelector('#date').value;
+    const author = document.querySelector('#username').value;
 
-    if (!title || !content || !date || !author) {
+    if (!title || !content || !author) {
         alert('Please fill in all fields');
         return;
     }
@@ -18,18 +18,16 @@ function handleFormSubmit(event) {
     const blog = {
         title: title,
         content: content,
-        date: date,
-        author: author
+        // date: date,
+        author: author,
     };
+    const existingBlogPosts = JSON.parse(localStorage.getItem('#blogForm')) || [];
+    existingBlogPosts.push(blog);
+    localStorage.setItem('#blogForm', JSON.stringify(existingBlogPosts));
+    redirectPage("blog.html");
 }
-    localStorage.setItem('blog', JSON.stringify(blog));
 
 
 // TODO: Add an event listener to the form on submit. Call the function to handle the form submission.
-formEl.addEventListener('submit', handleFormSubmit);
+document.getElementById("Submit").addEventListener('click', handleFormSubmit);
 
-
-// Function to redirect to the blog page
-function redirectPage() {
-    window.location.href = '/assets/blog.html';
-}

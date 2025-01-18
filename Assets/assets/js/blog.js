@@ -1,5 +1,5 @@
 // TODO: Create a variable that selects the main element, and a variable that selects the back button element
-const mainEl = document.querySelector('main');
+const mainEl = document.querySelector('#cards');
 const backEl = document.getElementById('back');
 // TODO: Create a function that builds an element and appends it to the DOM
 function buildEl(tag, content) {
@@ -10,10 +10,8 @@ function buildEl(tag, content) {
 
 // TODO: Create a function that handles the case where there are no blog posts to display
 function handleNoPosts()  {
-    const message = document.getElementById('p');
-    button.addEventListener('click', (event) => {
             alert("no posts to display");
-        })};
+        };
 function addEventListener (){
     const button = document.getElementById('button');
     clickEvent();
@@ -23,22 +21,27 @@ function addEventListener (){
 }
 // TODO: Create a function called `renderBlogList` that renders the list of blog posts if they exist. If not, call the no posts function.
 function renderBlogList() {
-    const blogPosts = readLocalStorage('blogData');
-    if (blogPosts.length === 0) {
-        noPosts();
-    } else {
+    const blogPosts = JSON.parse(localStorage.getItem('#blogForm'))
+    if (blogPosts) {
         blogPosts.forEach(post => {
             const postEl = document.createElement('div');
-            postEl.classList.add('blog-post');
+            postEl.classList.add('blogPosts');
             postEl.innerHTML = `
-                <h3>${post.title}</h3>
-                <p>${post.title}</p>
-                <small>By ${post.username}</small>
+                <div class="card1">
+                <h2>Card 1</h2>
+                <h3>
+                ${post.title}</h3>
+                <p>${post.content}</p>
+                <small>By ${post.author}</small>
+                </div>
+                
             `;
             mainEl.appendChild(postEl);
-        localStorage.setItem('blog-post', JSON.stringify(blog));
+        // localStorage.setItem('blogPosts', JSON.stringify(blog));
         });
-    }    
+    }
+    else {
+        handleNoPosts()};
 }
 // TODO: Redirect to the home page using the `redirectPage` function found in logic.js when the back button is clicked
 backEl.addEventListener('click', () => {
