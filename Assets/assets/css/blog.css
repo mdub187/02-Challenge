@@ -5,7 +5,8 @@ header {
 }
 
 button {
-    content-align: center;
+    flex: 1;
+    content: center;
 }
 
 

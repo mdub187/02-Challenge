@@ -5,10 +5,10 @@ const formEl = document.querySelector('blogForm');
 function handleFormSubmit(event) {
     event.preventDefault(); // Prevent the default form submission behavior
 
-    const title = document.querySelector('#title').value;
-    const content = document.querySelector('#content').value;
+    const title = document.querySelector('#title').value.trim();
+    const content = document.querySelector('#content').value.trim();
     // const date = document.querySelector('#date').value;
-    const author = document.querySelector('#username').value;
+    const author = document.querySelector('#username').value.trim();
 
     if (!title || !content || !author) {
         alert('Please fill in all fields');
