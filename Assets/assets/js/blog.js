@@ -2,10 +2,10 @@
 const mainEl = document.querySelector('#cards');
 const backEl = document.getElementById('back');
 // TODO: Create a function that builds an element and appends it to the DOM
-function buildEl(type, content) {
-    const newElement = document.createElement(type);
-    tag.textContent = text;
-    parent.appendChild(tag);
+function buildEl(tag, content) {
+    const newElement = document.createElement(tag);
+    newElement.textContent = content;
+    mainEl.appendChild(newElement);
     return tag;
 }
 
@@ -26,19 +26,17 @@ function renderBlogList() {
     if (blogPosts) {
         blogPosts.forEach(post => {
             const postEl = document.createElement('div');
-            postEl.classList.add('blogPosts');
+            postEl.classList.add('blogPost');
             postEl.innerHTML = `
                 <div class="card1">
                 <h2>Card 1</h2>
-                <h3>
-                ${post.title}</h3>
+                <h3><input autocomplete="on" type="text" id="title" name="title" placeholder="Title"></h3>
+                <h3>${post.title}</h3>
                 <p>${post.content}</p>
                 <small>By ${post.author}</small>
                 </div>
-                
             `;
             mainEl.appendChild(postEl);
-        // localStorage.setItem('blogPosts', JSON.stringify(blog));
         });
     }
     else {

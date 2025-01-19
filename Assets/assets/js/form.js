@@ -1,5 +1,5 @@
 // TODO: Create a variable that selects the form element
-const formEl = document.querySelector('blogForm');
+const formEl = document.querySelector('blogform');
 
 // Function to handle form submission
 function handleFormSubmit(event) {
@@ -21,7 +21,7 @@ function handleFormSubmit(event) {
         // date: date,
         author: author,
     };
-    const existingBlogPosts = JSON.parse(localStorage.getItem('#blogForm')) || [];
+    const existingBlogPosts = JSON.parse(localStorage.getItem('#content')) || [];
     existingBlogPosts.push(blog);
     localStorage.setItem('#blogForm', JSON.stringify(existingBlogPosts));
     redirectPage("blog.html");
@@ -29,5 +29,5 @@ function handleFormSubmit(event) {
 
 
 // TODO: Add an event listener to the form on submit. Call the function to handle the form submission.
-document.getElementById("Submit").addEventListener('click', handleFormSubmit);
+document.getElementById("submit").addEventListener('click', handleFormSubmit);
 
