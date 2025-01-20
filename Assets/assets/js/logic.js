@@ -8,14 +8,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // Retrieve storage again to preserve changes made on other pages
         // after this page was loaded
         const darkThemesByPage = JSON.parse(localStorage.darkThemesByPage);
-        darkThemesByPage[pathname] = !darkThemesByPage[pathname];
+        darkThemesByPage = !darkThemesByPage;
         localStorage.darkThemesByPage = JSON.stringify(darkThemesByPage);
         // Apply the new state of the theme after being toggled:
-        document.body.classList.toggle("dark", darkThemesByPage[pathname]);
+        document.body.classList.toggle("dark", darkThemesByPage);
     };
     document.addEventListener("click", toggleDarkThemeForPage);
-    document.body.classList.toggle("dark", darkThemesByPage[pathname]);
-    XML.importNode("toggle.xml");
+    // document.body.classList.toggle("dark", darkThemesByPage);
+    document.xml("toggle.xml");
 
     //EL for theme switching functionality
     button.addEventListener("click", function (event) {
@@ -101,7 +101,7 @@ const themeSwitcher = (() => {
           })
         })
     })
-  })()
+  })
 
 // TODO: Create a function called `readLocalStorage` that reads from local storage and returns the data. If no data exists, return an empty array.
 function readLocalStorage(key) {
@@ -110,7 +110,7 @@ function readLocalStorage(key) {
 }
 
 // TODO: Create a function called `storeLocalStorage` that takes a given object and saves the new data to the existing blog data in local storage.
-function storeLocalStorage(key, value) {
+function storeLocalStorage(key="blogForm", value="content") {
     const existingData = readLocalStorage(key);
     const updatedData = [...existingData, value];
     localStorage.setItem[key, JSON.stringify(updatedData)]

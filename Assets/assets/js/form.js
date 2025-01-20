@@ -7,7 +7,6 @@ function handleFormSubmit(event) {
 
     const title = document.querySelector('#title').value.trim();
     const content = document.querySelector('#content').value.trim();
-    // const date = document.querySelector('#date').value;
     const author = document.querySelector('#username').value.trim();
 
     if (!title || !content || !author) {
@@ -18,7 +17,6 @@ function handleFormSubmit(event) {
     const blog = {
         title: title,
         content: content,
-        // date: date,
         author: author,
     };
     const existingBlogPosts = JSON.parse(localStorage.getItem('#content')) || [];

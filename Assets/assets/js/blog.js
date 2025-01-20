@@ -1,6 +1,7 @@
 // TODO: Create a variable that selects the main element, and a variable that selects the back button element
 const mainEl = document.querySelector('#cards');
 const backEl = document.getElementById('back');
+const blogForm = document.getElementById('content')
 // TODO: Create a function that builds an element and appends it to the DOM
 function buildEl(tag, content) {
     const newElement = document.createElement(tag);
@@ -11,11 +12,12 @@ function buildEl(tag, content) {
 
 // TODO: Create a function that handles the case where there are no blog posts to display
 function handleNoPosts()  {
-            alert("no posts to display");
+    if (!blogForm)
+            alert("No posts to display");
         };
-function addEventListener (){
+function addEventListener() {
     const button = document.getElementById('button');
-    clickEvent();
+    // clickEvent();
     innerHTML.addEventListener('click', ()=>{
     this.next();
     })
@@ -24,12 +26,13 @@ function addEventListener (){
 function renderBlogList() {
     const blogPosts = JSON.parse(localStorage.getItem('#blogForm'))
     if (blogPosts) {
+        for (const main of blogPosts) {
         blogPosts.forEach(post => {
             const postEl = document.createElement('div');
             postEl.classList.add('blogPost');
             postEl.innerHTML = `
                 <div class="card1">
-                <h2>Card 1</h2>
+                <h2>card1</h2>
                 <h3><input autocomplete="on" type="text" id="title" name="title" placeholder="Title"></h3>
                 <h3>${post.title}</h3>
                 <p>${post.content}</p>
@@ -39,7 +42,7 @@ function renderBlogList() {
             mainEl.appendChild(postEl);
         });
     }
-    else {
+    } else {
         handleNoPosts()};
 }
 // TODO: Redirect to the home page using the `redirectPage` function found in logic.js when the back button is clicked
