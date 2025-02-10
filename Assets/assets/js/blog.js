@@ -46,10 +46,14 @@ function renderBlogList() {
         handleNoPosts()};
 }
 // TODO: Redirect to the home page using the `redirectPage` function found in logic.js when the back button is clicked
-backEl.addEventListener('click', () => {
-    history.back();
-    redirectPage('index.html');  
-    });
+function redirectPage(redirectPage){
+    backEl.addEventListener('click', () => {
+        history.back();
+        redirectPage('../index.html');  
+        })
+    var s = document.getElementById();
+    s.value = "../index.html";
+};
 
 // TODO: Call the `renderBlogList` function
 renderBlogList();

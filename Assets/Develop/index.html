@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.25">
   <title>My First Blog</title>
-  <link rel="stylesheet" href="/Users/mdub/School/Class Repo Activities/myBootCamp/WEBAPI/02-Challenge/Assets/assets/css/style.css">
-  <script defer src="/Users/mdub/School/Class Repo Activities/myBootCamp/WEBAPI/02-Challenge/Assets/assets/js/form.js"></script>
-  <script defer src="/Users/mdub/School/Class Repo Activities/myBootCamp/WEBAPI/02-Challenge/Assets/assets/js/logic.js"></script>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script defer src="../assets/js/form.js"></script>
+  <script defer src="../assets/js/logic.js"></script>
 </head>
 <body>
   <div class="container">
@@ -19,7 +19,6 @@
 
     <!-- Right Section -->
     <div class="right-section">
-      <h2>What's on your mind?</h2>
       <form class="blog-form">
         <label for="username">Username</label>
         <input type="text" id="username" name="username" placeholder="Enter your username" autocomplete="on">
@@ -28,10 +27,14 @@
         <input type="text" id="title" name="title" placeholder="Enter a title">
         <label for="content">Content</label>
         <textarea id="content" name="content" placeholder="What's on your mind?"></textarea>
-        <button id="Blog" type="button" onclick="window.location.href='/Users/mdub/School/Class Repo Activities/myBootCamp/WEBAPI/02-Challenge/Assets/Develop/blog.html'">Blog</button>
+        <button id="back" onclick="redirectPage('../blog.html')">Home</button>
         <button id="submit" type="SUBMIT">Submit</button>
+        <button id="theme-switch" type="button">Switch</button>
+        <!-- <div class="theme-switch-container" type="button" id="theme-switch"><small>Switch Theme</small></button> -->
       </form>
     </div>
   </div>
+  <footer>
+    <p>&copy; 2024 <strong id="strong">MW</strong></p>
 </body>
 </html>
