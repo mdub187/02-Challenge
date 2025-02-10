@@ -953,4 +953,242 @@ index.js:3: command not found: import
 index.js:4: command not found: import
 index.js:5: parse error near `}'
 [1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/myBootCamp/NODE/ReadMeGen[97m[40m$ [K[?2004hoopen index.html[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/myBootCamp/NODE/ReadMeGen[97m[40m$ [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/myBootCamp/NODE/ReadMeGen[97m[40m$ [K[?2004hlls[?2004l
+README.md         index.html        index.js          [36mnode_modules[39;49m[0m      package-lock.json package.json      readme.readme     require.js        [36mutils[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/myBootCamp/NODE/ReadMeGen[97m[40m$ [K[?2004hccd ... [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/myBootCamp/NODE[97m[40m$ [K[?2004hlls[?2004l
+[36mReadMeGen[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/myBootCamp/NODE[97m[40m$ [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/myBootCamp[97m[40m$ [K[?2004hlls[?2004l
+[36mBUCKETMINIC[39;49m[0m                   [36mBackupofBucket[39;49m[0m                [36mHTML[39;49m[0m                          [36mJAVA[39;49m[0m                          [36mNODE[39;49m[0m                          [36mSQL[39;49m[0m                           [36mWEBAPI[39;49m[0m                        [36minsomnia-export.1737541401910[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/myBootCamp[97m[40m$ [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities[97m[40m$ [K[?2004hlls[?2004l
+[36m01-Activities[39;49m[0m           [36m02-Advanced-CSS[39;49m[0m         [36m03-Algorithms[39;49m[0m           [36m04-Web-APIs[39;49m[0m             [36m06-Project-1-Contd[39;49m[0m      [36m08-TypeScript-and-OOP[39;49m[0m   [36m10-SQL[39;49m[0m                  [36m12-React[39;49m[0m                [36m14-Full-Stack-React[39;49m[0m     movies.api              pat.txt
+[36m01-HTML-Git-CSS[39;49m[0m         [36m02-Challenge[39;49m[0m            [36m03-JavaScript[39;49m[0m           [36m05-Project-1[39;49m[0m            [36m07-NodeJS[39;49m[0m               [36m09-Servers-and-APIs[39;49m[0m     [36m11-Prompt-Engineering[39;49m[0m   [36m13-React-and-TypeScript[39;49m[0m README.md               [36mmyBootCamp[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities[97m[40m$ [K[?2004hccd 13[?2004l
+cd: no such file or directory: 13
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities[97m[40m$ [K[?2004hcd 13-React-and-TypeScript[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript[97m[40m$ [K[?2004hlls[?2004l
+[36m01-Activities[39;49m[0m [36m02-Challenge[39;49m[0m  [36m03-Algorithms[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript[97m[40m$ [K[?2004hccd - - - 02[?2004l
+cd: no such file or directory: 02
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript[97m[40m$ [K[?2004hcd 02-Challenge[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript/02-Challenge[97m[40m$ [K[?2004hllwl lel lql lwl ls[?2004l
+[36mAssets[39;49m[0m    [36mDevelop[39;49m[0m   README.md
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript/02-Challenge[97m[40m$ [K[?2004h; ccd c  ccat README.md[1m [0m[0m [?2004l
+# Module 13 Challenge: Candidate Search
+
+## Your Task
+
+TypeScript can enhance the overall development experience with React, leading to more reliable, maintainable, and scalable applications.
+
+Your challenge is to complete a candidate search application that calls the GitHub API and renders data in the browser.
+
+The application’s API, retrieves data from the GitHub API, has already been created. It's your job to complete the front end using TypeScript, call the application's API, and then deploy the entire application to Render.
+
+* For more information on the data returned by the GitHub API, refer to the [GitHub Documentation on REST API Endpoints for Users](https://docs.github.com/en/rest/users/users).
+
+> **important** You'll need to create a [GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token) to increase the API rate limit.
+
+## User Story
+
+```md
+AS AN employer
+I WANT a candidate search application
+SO THAT I can hire the best candidates
+```
+
+## Acceptance Criteria
+
+```md
+GIVEN a candidate search application
+WHEN the candidate search page loads
+THEN the information for one candidate should be displayed, including the candidate's name, username, location, avatar, email, html_url, and company
+WHEN I click the "+" button
+THEN the candidate should be saved to the list of potential candidates and the next candidate's information should be displayed
+WHEN I click the "-" button
+THEN the next candidate's information should be displayed without saving the current candidate
+WHEN there are no candidates available to review
+THEN an appropriate message should be shown indicating no more candidates are available
+WHEN the potential candidates page loads
+THEN the user should see a list of previously saved potential candidates with their name, username, location, avatar, email, html_url, and company
+WHEN the page reloads
+THEN the list of potential candidates should persist and be available for viewing
+WHEN there are no potential candidates
+THEN an appropriate message should be displayed indicating no candidates have been accepted
+WHEN I click the "-" button
+THEN the next candidate's information should be displayed without saving the current candidate
+```
+
+## Mock-Up
+
+The following images show the web application's appearance and functionality:
+
+![The candidate search page displays a candidate's information and allows the user to accept or reject the candidate and view a list of potential candidates.](./Assets/13-01-candidate_search_homepage.png)
+
+![The potential candidates page displays a list of potential candidates and allows the user to reject a candidate.](./Assets/13-02-candidate_search_potential_candidates.png)
+
+## Getting Started
+
+* For this app to run, you'll need to create a GitHub Personal Access Token. Follow the instructions on [creating a fine-grained personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token), with the following caveats:
+
+  * When creating your fine-grained token, leave all the default permissions. We don't need to add any additional privileges to this token, since we're only using it to search public profiles.
+
+  * Once your token is generated, add it to a `.env` file in the `environment` folder as `VITE_GITHUB_TOKEN`. The included `.env.EXAMPLE` file can be used as an example.
+
+  * You will NOT be able to view your token after you create it. If you forget to copy it over right away, you'll need to create a new token. 
+
+The starter code provides:
+
+* The application folder structure and scaffolding
+
+* Code to retrieve data from the GitHub API
+
+  * `./Develop/src/api/API.tsx`
+
+You will need to:
+
+* Create a `.env` file with your GitHub API token
+
+* Complete code for the `CandidateSearch` and `SavedCandidates` pages
+
+* Create any necessary components
+
+* Use local storage
+
+Refer to the [GitHub Documentation on Authenticating to the REST API](https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28#authenticating-with-a-personal-access-token) for information about creating your personal access token.
+
+Refer to the [Full-Stack Blog on deploying to Render](https://coding-boot-camp.github.io/full-stack/render/render-deployment-guide) and the [Render documentation on setting environment variables](https://docs.render.com/configure-environment-variables).
+
+## Bonus
+
+As a bonus, try to add the ability to sort and filter the list of potential candidates.
+
+## Grading Requirements
+
+> **note** If a Challenge assignment submission is marked as “0”, it is considered incomplete and won't count toward your graduation requirements. Examples of incomplete submissions include the following:
+>
+> * A repository that has no code
+>
+> * A repository that includes a unique name but nothing else
+>
+> * A repository that includes only a README file but nothing else
+>
+> * A repository that only includes starter code
+
+This Challenge is graded based on the following criteria:
+
+### Technical Acceptance Criteria: 40%
+
+* Application uses the GitHub API to retrieve user data
+
+* Application uses an interface to type user data
+
+* Application stores potential candidates in localStorage
+
+* Application is deployed to Render
+
+### Deployment: 32%
+
+* Application is deployed at live URL
+
+* Application loads with no errors
+
+* Application GitHub URL has been submitted
+
+* GitHub repository contains application code
+
+### Application Quality: 15%
+
+* Application user experience is intuitive and easy to navigate
+
+* Application user interface style is clean and polished
+
+* Application resembles the mock-up functionality provided in the Challenge instructions
+
+### Repository Quality: 13%
+
+* Repository has a unique name
+
+* Repository follows best practices for file structure and naming conventions
+
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
+* Repository contains multiple descriptive commit messages
+
+* Repository contains a quality README file with a description, screenshot, and link to the deployed application
+
+### Bonus: +10 Points
+
+Fulfilling the following can add up to 10 points to your grade (note that the highest grade you can achieve is still 100):
+
+* Application allows sorting and filtering of potential candidates
+
+## Review
+
+You are required to submit BOTH of the following for review:
+
+* The URL of the functional, deployed application
+
+* The URL of the GitHub repository (the repository should have a unique name and include a README describing the project)
+
+---
+© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript/02-Challenge[97m[40m$ [K[?2004h;;s;  k j k lls[?2004l
+[36mAssets[39;49m[0m    [36mDevelop[39;49m[0m   README.md
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript/02-Challenge[97m[40m$ [K[?2004hccd Develop[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript/02-Challenge/Develop[97m[40m$ [K[?2004hlld[?2004l
+≈^X   ^Z
+zsh: suspended  ld
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript/02-Challenge/Develop[97m[40m$ [K[?2004hlls[?2004l
+README.md          [36menvironment[39;49m[0m        index.html         [36mnode_modules[39;49m[0m       package-lock.json  package.json       [36mpublic[39;49m[0m             [36msrc[39;49m[0m                tsconfig.json      tsconfig.node.json vite.config.ts
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript/02-Challenge/Develop[97m[40m$ [K[?2004hnnpm i && npm run dev[?2004l
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K
+up to date, audited 205 packages in 486ms
+[1G[0K⠼[1G[0K
+[1G[0K⠼[1G[0K42 packages are looking for funding
+[1G[0K⠼[1G[0K  run `npm fund` for details
+[1G[0K⠼[1G[0K
+found [32m[1m0[22m[39m vulnerabilities
+[1G[0K⠼[1G[0K
+> 13-challenge@0.0.0 dev
+> vite
+
+[1G[0K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v5.4.14[39m  [2mready in [0m[1m492[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+^Z
+zsh: suspended  npm run dev
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript/02-Challenge/Develop[97m[40m$ [K[?2004hlls[?2004l
+README.md          [36menvironment[39;49m[0m        index.html         [36mnode_modules[39;49m[0m       package-lock.json  package.json       [36mpublic[39;49m[0m             [36msrc[39;49m[0m                tsconfig.json      tsconfig.node.json vite.config.ts
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript/02-Challenge/Develop[97m[40m$ [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript/02-Challenge[97m[40m$ [K[?2004hlls[?2004l
+[36mAssets[39;49m[0m    [36mDevelop[39;49m[0m   README.md
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript/02-Challenge[97m[40m$ [K[?2004hccdc  ccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript[97m[40m$ [K[?2004hlls[?2004l
+[36m01-Activities[39;49m[0m [36m02-Challenge[39;49m[0m  [36m03-Algorithms[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript[97m[40m$ [K[?2004hccd c  ccode 02-Challenge[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                                             [0m[27m[24m[J[38;5;214m[40mgfamsupreme-2[97m[40m:[38;5;39m[40m~/School/Class Repo Activities/13-React-and-TypeScript[97m[40m$ [K[?2004h
